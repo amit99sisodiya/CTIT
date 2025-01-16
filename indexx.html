@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Dropdowns</title>
+    <link rel="stylesheet" href="stylee.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h3>Select File, Publishers and Media sources</h3>
+
+        <!-- Filter Section in one row (Horizontal) -->
+        <div class="filter-row">
+            <!-- Dropdown for selecting File -->
+            <div class="tab-whiteboard">
+                <label for="file-dropdown">Select File:</label>
+                <select id="file-dropdown">
+                    <option value="">--Select File--</option>
+                    <!-- Add options dynamically here -->
+                </select>
+            </div>
+
+            <!-- Dropdown for selecting Tab -->
+            <div class="tab-whiteboard">
+                <label for="tab-dropdown">Select Tab Name:</label>
+                <select id="tab-dropdown" disabled>
+                    <option value="">--Select Tab--</option>
+                    <!-- Add options dynamically here -->
+                </select>
+            </div>
+
+            <!-- Dropdown for selecting Partner -->
+            <div class="tab-whiteboard">
+                <label for="partner-dropdown">Select Partner Name:</label>
+                <select id="partner-dropdown" disabled>
+                    <option value="">--Select Partner--</option>
+                    <!-- Add options dynamically here -->
+                </select>
+            </div>
+        </div>
+
+        <!-- Image Section -->
+        <div class="image-whiteboard">
+            <div id="partner-image">
+                <img id="partner-image-src" src="" alt="Partner Image">
+            </div>
+        </div>
+    </div>
+
+    <footer>© 2025 Dynamic Dropdowns. All rights reserved.</footer>
+
+    <script src="script02.js"></script>
+</body>
+</html>
